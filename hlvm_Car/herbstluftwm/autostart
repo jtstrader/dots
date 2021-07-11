@@ -22,8 +22,8 @@ Mod=Mod1    # Use alt as the main modifier
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
-hc keybind $Mod-Return spawn "${TERMINAL:-xterm}" # use your $TERMINAL with xterm as fallback
-hc keybind $Mod-Return spawn "${TERMINAL:-urxvt}" # use urxvt
+#hc keybind $Mod-Return spawn "${TERMINAL:-xterm}" # use your $TERMINAL with xterm as fallback
+hc keybind $Mod-Return spawn "${TERMINAL:-alacritty}" # use urxvt
 
 # basic movement in tiling and floating mode
 # focusing clients
@@ -45,6 +45,10 @@ hc keybind $Mod-Shift-h     shift left
 hc keybind $Mod-Shift-j     shift down
 hc keybind $Mod-Shift-k     shift up
 hc keybind $Mod-Shift-l     shift right
+
+# cycle opacity
+hc keybind $Mod-Shift-s	    cycle_value always_show_frame 0 1
+hc keybind $Mod-Shift-o	    cycle_value frame_normal_opacity 0 40
 
 # splitting frames
 # create an empty frame at the specified direction
@@ -159,6 +163,8 @@ hc set frame_gap 30
 hc set smart_window_surroundings off
 hc set smart_frame_surroundings on
 hc set mouse_recenter_gap 0
+
+hc set frame_active_opacity 60
 
 # rules
 hc unrule -F
