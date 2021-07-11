@@ -87,7 +87,7 @@ hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
 
 # dmenu
-hc keybind $Mod-r spawn dmenu_run
+hc keybind $Mod-r spawn dmenu_run -i -p 'Arch Linux' -fn 'inconsolata:size=20' -nb '#ffffff' -nf '#141414' -sf '#ffffff' -sb '#db1102'
 
 # layouting
 hc keybind $Mod-b remove
