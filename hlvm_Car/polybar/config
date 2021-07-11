@@ -102,6 +102,7 @@ type = internal/xbacklight
 
 format = <label> <bar>
 label = %{F#626262}BL%{F-}
+format-underline = #db1102
 
 bar-width = 10
 bar-indicator = %{F#626262}|%{F-}
@@ -109,7 +110,7 @@ bar-indicator-foreground = #fff
 bar-indicator-font = 2
 bar-fill = ─
 bar-fill-font = 2
-bar-fill-foreground = #
+bar-fill-foreground = #db1102
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.foreground-alt}
