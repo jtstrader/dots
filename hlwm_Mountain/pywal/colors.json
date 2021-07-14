@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/jtstr/Pictures/Wallpapers/Mountain.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#ffffff",
+        "foreground": "#6b6b6b",
+        "cursor": "#e2e9e8"
+    },
+    "colors": {
+        "color0": "#ffffff",
+        "color1": "#39B0CF",
+        "color2": "#17C4DC",
+        "color3": "#27D0E3",
+        "color4": "#D0BBAE",
+        "color5": "#f58916",
+        "color6": "#e83f15",
+        "color7": "#606060",
+        "color8": "#9ea3a2",
+        "color9": "#39B0CF",
+        "color10": "#17C4DC",
+        "color11": "#27D0E3",
+        "color12": "#D0BBAE",
+        "color13": "#f58916",
+        "color14": "#e83f15",
+        "color15": "#6b6b6b"
+    }
+}
