@@ -1,0 +1,39 @@
+xterm*faceName: Source Code Pro
+xterm*faceSize: 14
+
+! special
+xterm*foreground:   #8ca68c
+xterm*background:   #131513
+xterm*cursorColor:  #8ca68c
+
+! black
+xterm*color0:       #131513
+xterm*color8:       #687d68
+
+! red
+xterm*color1:       #e6193c
+xterm*color9:       #e6193c
+
+! green
+xterm*color2:       #29a329
+xterm*color10:      #29a329
+
+! yellow
+xterm*color3:       #c3c322
+xterm*color11:      #c3c322
+
+! blue
+xterm*color4:       #3d62f5
+xterm*color12:      #3d62f5
+
+! magenta
+xterm*color5:       #ad2bee
+xterm*color13:      #ad2bee
+
+! cyan
+xterm*color6:       #1999b3
+xterm*color14:      #1999b3
+
+! white
+xterm*color7:       #8ca68c
+xterm*color15:      #f0fff0
