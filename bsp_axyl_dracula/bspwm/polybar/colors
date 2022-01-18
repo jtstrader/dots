@@ -1,0 +1,20 @@
+[color]
+background = #282a36
+foreground = #f8f8f2
+black = #000000
+red = #ff5555
+green = #50fa7b
+yellow = #f0fa7e
+blue = #bd93f9
+magenta = #ff79c6
+cyan = #8be9fd
+white = #bfbfbf
+altblack = #4d4d4d
+altred = #ff6e67
+altgreen = #5af78e
+altyellow = #f3f98f
+altblue = #caa9fa
+altmagenta = #ff92d0
+altcyan = #9aedfe
+altwhite = #e6e6e6
+
