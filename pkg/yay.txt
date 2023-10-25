@@ -32,7 +32,6 @@ fuse2
 gawk
 gcc
 gettext
-gimp
 git
 grep
 groff
@@ -88,7 +87,6 @@ ripgrep
 rlwrap
 rustup
 sed
-spotifyd
 steam
 sudo
 texinfo
